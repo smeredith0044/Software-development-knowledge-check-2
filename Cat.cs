@@ -3,7 +3,7 @@ namespace knowledgecheck2
 {
     public class Cat : Animal
     {
-        public string name;
+        public string name { get; set; }
         public Cat()
         {
         }
